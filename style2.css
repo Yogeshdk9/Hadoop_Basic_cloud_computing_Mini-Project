@@ -1,0 +1,65 @@
+form {
+  width: 30%;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #555;
+  background-color: yellow;
+}
+body
+{
+  height:640px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+input {
+  width: 100%;
+  border: 1px solid #f1e1e1;
+  display: block;
+  padding: 5px 10px;
+}
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 100px auto;
+}
+th,td {
+  height: 50px;
+  vertical-align: center;
+  text-align:center;
+  border: 3px solid white;
+  color:black;
+  font-size:20px;
+  background-color: silver;
+}
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  margin : 0px auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: green;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+}
